@@ -46,56 +46,10 @@ background: -moz-linear-gradient(blue,green);
 background: linear-gradient(rgb(100,255,100), rgb(200, 50, 200));
 }
 
-/*.dot::after { */
-	/*position: absolute; */
-	/* code to bring it in middle */
-/*
-	bottom: 50%;
-	right: 50%;
-	transform: translate(50%, 50%);
-*/
-	/* To make content in center 
-	text-align: center;
-} */
-
-
-/*
-.dot p {
-	margin-top: 0.10em;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: grey;
-}
-*/
-
-/*
-.dot:before,
-.dot:after {
-	content:'\200B';
-	display:inline-block;
-	line-height:0px;
-
-	padding-top:50%;
-	padding-bottom:50%;
-}
-
-.dot:before {
-	padding-left:8px;
-}
-
-.dot:after {
-	padding-right:8px;
-}
-*/
 
 /*
 
-#val {
-	color: purple;
-	font-size: 24px;
-	text-align: center;
-	vertical-align: middle;
+
 */
 
 
@@ -142,7 +96,7 @@ background: linear-gradient(rgb(100,255,100), rgb(200, 50, 200));
 }
 
 
-#val7 {
+#val_b {
 	color: white;
 	font-size: 24px;
 	text-align: center;
@@ -153,7 +107,4 @@ background: linear-gradient(rgb(100,255,100), rgb(200, 50, 200));
 	color: purple;
 	font-size: 24px;
 	text-align: center;
-/*
-	text-align: center;
-*/
 }
