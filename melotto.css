@@ -1,0 +1,159 @@
+p{
+    color: red;
+    font-size: 36px;
+    text-align: center
+}
+a{
+    color: rgb(0, 153, 255);
+    font-size: 24px;
+}
+hr {
+    background-color: green;
+    width: 90%;
+    height: 5px
+}
+div {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center
+}
+
+.dot {
+	height: 60px;
+	width: 60px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 10px;
+	vertical-align: middle;
+background: -webkit-linear-gradient(yellow,red);
+background: -o-linear-gradient(yellow,red);
+background: -moz-linear-gradient(yellow,red);
+background: linear-gradient(yellow,red);
+}
+
+.dotb {
+	height: 60px;
+	width: 60px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 10px;
+	vertical-align: middle;
+background: -webkit-linear-gradient(blue,red);
+background: -o-linear-gradient(blue,red);
+background: -moz-linear-gradient(blue,green);
+background: linear-gradient(rgb(100,255,100), rgb(200, 50, 200));
+}
+
+/*.dot::after { */
+	/*position: absolute; */
+	/* code to bring it in middle */
+/*
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+*/
+	/* To make content in center 
+	text-align: center;
+} */
+
+
+/*
+.dot p {
+	margin-top: 0.10em;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: grey;
+}
+*/
+
+/*
+.dot:before,
+.dot:after {
+	content:'\200B';
+	display:inline-block;
+	line-height:0px;
+
+	padding-top:50%;
+	padding-bottom:50%;
+}
+
+.dot:before {
+	padding-left:8px;
+}
+
+.dot:after {
+	padding-right:8px;
+}
+*/
+
+/*
+
+#val {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+*/
+
+
+#val1 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#val2 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#val3 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#val4 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#val5 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#val6 {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#val7 {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#demoX {
+	color: purple;
+	font-size: 24px;
+	text-align: center;
+/*
+	text-align: center;
+*/
+}
