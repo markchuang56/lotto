@@ -10,12 +10,12 @@ a{
 hr {
     background-color: green;
     width: 90%;
-    height: 5px
+    height: 5px;
 }
 div {
     width: 600px;
     margin: 20px auto;
-    text-align: center
+    text-align: center;
 }
 
 .dot {
@@ -46,7 +46,23 @@ background: -moz-linear-gradient(blue,green);
 background: linear-gradient(rgb(100,255,100), rgb(200, 50, 200));
 }
 
+#dataToggle {
+/*
+	padding: 6px 30px;
+*/
+	height: 40px;
+	width: 100px;
 
+	background-color: #A5A5A5;
+	border: 2px solid #FF1212;
+	border-radius: 4px;
+
+	border-color: rgb(0, 100, 220);
+	font-size: 24px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
 
 #val1 {
 	color: purple;

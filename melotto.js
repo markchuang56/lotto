@@ -1,15 +1,20 @@
-document.querySelector('button').addEventListener('click', function() {
-	xlotto(true);
+xStatus = true;
+
+document.querySelector('#dataToggle').addEventListener('click', function() {
+	xlotto(xStatus);
+	xStatus = !xStatus;
+	if(xStatus == true) {
+		document.getElementById("dataToggle").innerHTML = "開獎";
+	} else {
+		document.getElementById("dataToggle").innerHTML = "清除";
+	}
 });
 
-// Clear function
-document.querySelector('#clrdata').addEventListener('click', function() {
-	xlotto(false);
-});
 
 function xlotto(xy) {
         
     let arr = [];
+	let obj = [];
     
     for (let i=0; i<7; i++) {
         while (true) {
@@ -25,6 +30,8 @@ function xlotto(xy) {
         }
     }
 	// 取消比對
+
+  	//document.getElementById("demoX").innerHTML  = obj;
   	//document.getElementById("demoX").innerHTML  = arr;
   	document.getElementById("val1").innerHTML  = arr[0];
   	document.getElementById("val2").innerHTML  = arr[1]; 
